@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Learning 2 - Structured Learning Algorithms (11/22/2022)"
+date:   2022-11-22 13:30:00 -0400
+categories: classes
+---
+
+<p><b>Content:</b>
+<ul class="bullet">
+  <li>Reinforcement Learning</li>
+  <li>Minimum Risk Training</li>
+  <li>The Structured Perceptron</li>
+  <li>Structured Max-margin Objectives</li>
+  <li>Simple Remedies to Exposure Bias</li>
+</ul>
+</p>
+<ul class="default">
+  <li><i>Required Reading:</i> <a href="http://karpathy.github.io/2016/05/31/rl/">Deep Reinforcement Learning Tutorial</a> (Karpathy 2016)</li>
+  <li><i>Reference:</i> <a href="http://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037">Goldberg Book</a> Chapter 19-19.3</li>
+  <li><i>Reference:</i> <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch17.pdf">Course in Machine Learning Chapter 17</a> (Daume)</li>
+  <li><i>Reference:</i> <a href="http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf">Reinforcement Learning Textbook</a> (Sutton and Barto 2016)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/abs/1512.02433">Minimum Risk Training for NMT</a> (Shen et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf">REINFORCE</a> (Williams 1992)</li>
+  <li><i>Reference:</i> <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/avrim/Papers/cotrain.pdf">Co-training</a> (Blum and Mitchell 1998)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/abs/1909.13788">Revisiting Self-training</a> (He et al. 2020)</li>
+  <li><i>Reference:</i> <a href="http://www.gatsby.ucl.ac.uk/~dayan/papers/reinfss.pdf">Adding Baselines</a> (Dayan 1990)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1511.06732.pdf">Sequence-level Training for RNNs</a> (Ranzato et al. 2016)</li>
+  <li><i>Reference:</i> <a href="http://www.dtic.mil/docs/citations/ADA261434">Experience Replay</a> (Lin 1993)</li>
+  <li><i>Reference:</i> <a href="http://cling.csd.uwo.ca/cs346a/extra/tdgammon.pdf">Neural Q Learning</a> (Tesauro 1995)</li>
+  <li><i>Reference:</i> <a href="https://pdfs.semanticscholar.org/2980/dfe5c99658dc3e508d9d6e1d7f26e6fc8934.pdf">Intrinsic Reward</a> (Schmidhuber 1991)</li>
+  <li><i>Reference:</i> <a href="http://papers.nips.cc/paper/6383-unifying-count-based-exploration-and-intrinsic-motivation.pdf">Intrinsic Reward for Atari</a> (Bellemare et al. 2016)</li>
+  <li><i>Reference:</i> <a href="http://mi.eng.cam.ac.uk/~sjy/papers/ygtw13.pdf">Reinforcement Learning for Dialog</a> (Young et al. 2013)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1606.01269.pdf">End-to-end Neural Task-based Dialog</a> (Williams and Zweig 2016)</li>
+  <li><i>Reference:</i> <a href="http://anthology.aclweb.org/D/D16/D16-1127.pdf">Neural Chat Dialog</a> (Li et al. 2016)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/N/N07/N07-2038.pdf">User Simulation for Learning in Dialog</a> (Schatzmann et al. 2007)</li>
+  <li><i>Reference:</i> <a href="http://www.anthology.aclweb.org/P/P09/P09-1010.pdf">RL for Mapping Instructions to actions</a> (Branavan et al. 2009)</li>
+  <li><i>Reference:</i> <a href="https://www.aclweb.org/anthology/D/D17/D17-1107.pdf">Deep RL for Mapping Instructions to Actions</a> (Misra et al. 2017)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D15-1001.pdf">RL for Text-based Grames</a> (Narasimhan et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/D14-1140">Incremental Prediction in MT</a> (Grissom et al. 2014)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/E/E17/E17-1099.pdf">Incremental Neural MT</a> (Gu et al. 2017)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D16/D16-1261.pdf">RL for Information Retrieval</a> (Narasimhan et al. 2016)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D17/D17-1062.pdf">RL for Query Reformulation</a> (Nogueira and Cho 2017)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P17/P17-1020.pdf">RL for Coarse-to-fine Question Answering</a> (Choi et al. 2017)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1611.01578.pdf">RL for Learning Neural Network Structure</a> (Zoph and Le 2016)</li>
+  <li><i>Reference:</i> <a href="http://www.stat.uchicago.edu/~lafferty/pdf/crf.pdf">Conditional Random Fields</a> (Lafferty et al. 2001)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/W/W02/W02-1001.pdf">Structured Perceptron</a> (Collins 2002)</li>
+  <li><i>Reference:</i> <a href="https://papers.nips.cc/paper/2397-max-margin-markov-networks.pdf">Structured Hinge Loss</a> (Taskar et al. 2005)</li>
+  <li><i>Reference:</i> <a href="http://www.umiacs.umd.edu/~hal/docs/daume06searn.pdf">SEARN</a> (Daume et al. 2006)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1011.0686.pdf">DAgger</a> (Ross et al. 2011)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/C/C12/C12-1059.pdf">Dynamic Oracles</a> (Goldberg and Nivre 2013)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D16/D16-1211.pdf">Training Neural Parsers w/ Dynamic Oracles</a> (Ballesteros et al. 2016)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1512.05287.pdf">Word Dropout</a> (Gal and Ghahramani 2015)</li>
+  <li><i>Reference:</i> <a href="http://papers.nips.cc/paper/6547-reward-augmented-maximum-likelihood-for-neural-structured-prediction.pdf">RAML</a> (Norouzi et al. 2016)</li>
+</ul>
+
+<p>
+<b>Slides:</b> <a href="{{ site.baseurl }}/assets/slides/anlp-22-structure.pdf">Structured Prediction Slides</a> <br/>
+<b>Sample Code:</b> <a href="https://github.com/neubig/nn4nlp-code/tree/master/10-structured">Structured Prediction Code Examples</a><br/>
+</p>
+

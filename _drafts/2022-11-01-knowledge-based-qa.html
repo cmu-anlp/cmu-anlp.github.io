@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "Applications 4 - Information Extraction and Knowledge-based QA (11/1/2022)"
+date:   2022-11-01 13:30:00 -0400
+categories: classes
+---
+
+<ul class="bullet">
+  <li>What are Knowledge Graphs/Ontologies?</li>
+  <li>Relation Extraction from Embeddings</li>
+  <li>Learning Embeddings from Relations</li>
+  <li>Probing Language Models for Knowledge</li>
+</ul>
+</p>
+<ul class="default">
+  <li><i>Required Reading:</i> <a href="https://web.stanford.edu/~jurafsky/slp3/17.pdf">Relation Extraction</a> Jurafsky and Martin Chapter 17.2</li>
+  <li><i>Reference:</i> <a href="http://www.dbs.ifi.lmu.de/~tresp/papers/1503.00759v3.pdf">Relation Extraction Survey</a> (Nickel et al. 2016)</li>
+  <li><i>Reference:</i> <a href="http://l2r.cs.uiuc.edu/Teaching/CS598-05/Papers/miller95.pdf">WordNet</a> (Miller 1995)</li>
+  <li><i>Reference:</i> <a href="https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/p33-lenat.pdf">Cyc</a> (Lenant 1995)</li>
+  <li><i>Reference:</i> <a href="http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/Auer-Bizer-ISWC2007-DBpedia.pdf">DBPedia</a> (Auer et al. 2007)</li>
+  <li><i>Reference:</i> <a href="http://www.wwwconference.org/www2007/papers/paper391.pdf">YAGO</a> (Suchanek et al. 2007)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/P10-1023">Babelnet</a> (Navigli and Ponzetto 2010)</li>
+  <li><i>Reference:</i> <a href="http://ids.snu.ac.kr/w/images/9/98/sc17.pdf">Freebase</a> (Bollacker et al. 2008)</li>
+  <li><i>Reference:</i> <a href="https://cacm.acm.org/magazines/2014/10/178785-wikidata/fulltext">Wikidata</a> (Vrandečić and Krötzsch 2014)</li>
+  <li><i>Reference:</i> <a href="http://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf">Relation Extraction by Translating Embeddings</a> (Bordes et al. 2013)</li>
+  <li><i>Reference:</i> <a href="http://papers.nips.cc/paper/5028-reasoning-with-neural-tensor-networks-for-knowledge-base-completion.pdf">Relation Extraction with Neural Tensor Networks</a> (Socher et al. 2013)</li>
+  <li><i>Reference:</i> <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8531/8546">Relation Extraction by Translating on Hyperplanes</a> (Wang et al. 2014)</li>
+  <li><i>Reference:</i> <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523/">Relation Extraction by Representing Entities and Relations</a> (Lin et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P17/P17-1088.pdf">Relation Extraction w/ Decomposed Matrices</a> (Xie et al. 2017)</li>
+  <li><i>Reference:</i> <a href="http://www.anthology.aclweb.org/P/P09/P09-1113.pdf">Distant Supervision for Relation Extraction</a> (Mintz et al. 2009)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/D/D12/D12-1110.pdf">Relation Classification w/ Recursive NNs</a> (Socher et al. 2012)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/old_anthology/C/C14/C14-1220.pdf">Relation Classification w/ CNNs</a> (Zeng et al. 2014)</li>
+  <li><i>Reference:</i> <a href="https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-429.pdf">Open IE from the Web</a> (Banko et al. 2007)</li>
+  <li><i>Reference:</i> <a href="http://turing.cs.washington.edu/papers/fader-emnlp2011.pdf">ReVerb Open IE</a> (Fader et al. 2011)</li>
+  <li><i>Reference:</i> <a href="https://www.aclweb.org/anthology/N18-1081">Supervised Open IE</a> (Stanovsky et al. 2018)</li>
+  <li><i>Reference:</i> <a href="https://www.aclweb.org/anthology/N13-1008">Universal Schema</a> (Riedel et al. 2013)</li>
+  <li><i>Reference:</i> <a href="https://www.aclweb.org/anthology/D/D15/D15-1174.pdf">Joint Entity and Relation Embedding</a> (Toutanova et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P17/P17-1040.pdf">Distant Supervision for Neural Models</a> (Luo et al. 2017)</li>
+  <li><i>Reference:</i> <a href="http://papers.nips.cc/paper/3863-modelling-relational-data-using-bayesian-clustered-tensor-factorization.pdf">Relation Extraction w/ Tensor Decomposition</a> (Sutskever et al. 2009)</li>
+  <li><i>Reference:</i> <a href="http://www.cs.cmu.edu/~wcohen/postscript/ecml-2010-ni.pdf">Relation Extraction via. KG Paths</a> (Lao and Cohen 2010)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D15/D15-1038.pdf">Relation Extraction by Traversing Knowledge Graphs</a> (Guu et al. 2015)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1702.08367.pdf">Relation Extraction via Differentiable Logic Rules</a> (Yang et al. 2017)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/P14-2089">Improving Embeddings w/ Semantic Knowledge</a> (Yu et al. 2014)</li>
+  <li><i>Reference:</i> <a href="">Improving Embeddings w/ Semantic Knowledge</a> (Yu et al. 2014)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/N/N15/N15-1184.pdf">Retrofitting Word Vectors to Semantic Lexicons</a> (Faruqui et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/N15-1070">Multi-sense Embedding with Semantic Lexicons</a> (Jauhar et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://www.anthology.aclweb.org/N/N16/N16-1018.pdf">Antonymy and Synonym Constraints for Word Embedding</a> (Mrksic et al. 2016)</li>
+  <li><i>Reference:</i> <a href=“https://www.aclweb.org/anthology/D19-1250.pdf”>Language Models as Knowledge Bases?</a> (Petroni et al. 2019)</li>
+<li><i>Reference:</i> <a href=“https://www.aclweb.org/anthology/2020.tacl-1.28.pdf”>How Can We Know What Language Models Know?</a> (Jiang et al. 2019)</li>
+<li><i>Reference:</i> <a href=“https://www.aclweb.org/anthology/2020.emnlp-main.346.pdf”>AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts</a> (Shin et al. 2020)</li>
+<li><i>Reference:</i> <a href=“https://arxiv.org/pdf/2103.10385.pdf”>GPT Understands, Too</a> (Liu et al. 2021)</li>
+<li><i>Reference:</i> <a href=“https://www.aclweb.org/anthology/2020.emnlp-main.437.pdf”>How Much Knowledge Can You Pack Into the Parameters of a Language Model?</a> (Roberts et al. 2020)</li>
+<li><i>Reference:</i> <a href=“https://www.aclweb.org/anthology/2020.emnlp-main.479.pdf”>X-FACTR: Multilingual Factual Knowledge Retrieval from Pretrained Language Models</a> (Jiang et al. 2020)</li>
+<li><i>Reference:</i> <a href=“https://arxiv.org/pdf/2002.08909.pdf”>REALM: Retrieval-Augmented Language Model Pre-Training</a> (Guu et al. 2020)</li>
+<li><i>Reference:</i> <a href=“https://arxiv.org/pdf/2005.11401.pdf”>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</a> (Lewis et al. 2020)</li>
+<li><i>Reference:</i> <a href=“https://arxiv.org/abs/2210.04234”>Multi-hop Reasoning in LMs</a> (Jiang et al. 2022)</li>
+</ul>
+
+<p>
+<b>Slides (from 2021):</b> <a href="https://phontron.com/class/anlp2021/assets/slides/anlp-20-kb.pdf">Knowledge Graph Slides</a> <br/>
+</p>
+
+

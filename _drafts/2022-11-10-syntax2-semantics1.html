@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Analysis 3 - Syntax 2 and Semantics 1 (11/10/2022)"
+date:   2022-11-10 13:30:00 -0400
+categories: classes
+---
+
+<p><b>Content:</b>
+<ul class="bullet">
+  <li>Dependency parsing algorithms</li>
+  <li>Feature structures</li>
+  <li>Subcategorization frames</li>
+  <li>Semantic roles</li>
+  <li>PropBank and FrameNet</li>
+  <li>What is a semantic representation?</li>
+</ul>
+</p>
+<ul class="default">
+  <li><i>Required Reading:</i> <a href="
+https://web.stanford.edu/~jurafsky/slp3/14.pdf">Dependency Parsing</a> Jurafsky and Martin Chapter 14</li>
+  <li><i>Required Reading:</i> <a href="https://github.com/rain1024/slp2-pdf/blob/master/chapter-wise-pdf/%5B15%5D%20Features%20and%20Unification.pdf">Features and Unification</a> Jurafsky and Martin v2 Chapter 15, through 15.3</li>
+  
+  <li><i>Required
+  Reading:</i> <a href="https://web.stanford.edu/~jurafsky/slp3/12.pdf">Constituency Grammar</a>
+  Jurafsky and Martin Chapter 12.3.4</li>
+  <li><i>Required
+  Reading:</i> <a href="https://web.stanford.edu/~jurafsky/slp3/19.pdf">Semantic
+  Role Labeling</a>
+  Jurafsky and Martin Chapter 19, through 19.5</li>
+    <li><i>Required
+      Reading:</i> <a href="https://github.com/rain1024/slp2-pdf/blob/master/chapter-wise-pdf/%5B17%5D%20Representing%20Meaning.pdf">Representing Meaning</a> 
+Jurafsky and Martin v2, Chapter 17, to section 17.5 </li>
+
+    
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/C/C96/C96-1058.pdf">Eisner Algorithm</a> (Eisner 1996)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P05/P05-1012.pdf">Large-margin Training of Parsers</a> (McDonald et al. 2005)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/H/H05/H05-1066.pdf">Spanning-tree Algorithms</a> (McDonald et al. 2005)</li>
+
+    <li><i>Reference:</i> <a href="http://cl.naist.jp/papers/2003/hiroya-y/IWPT-2003.pdf">Shift-reduce Parsing</a> (Yamada and Matsumoto 2003)</li>
+  <li><i>Reference:</i> <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6213">Shift-reduce Parsing</a> (Nivre 2003)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P11/P11-2033.pdf">Feature Engineering for Parsing</a> (Zhang and Nivre 2011)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D14/D14-1082.pdf">Feed-forward Dependency Parsing</a> (Chen and Manning 2014)</li>
+
+    <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P15/P15-1031.pdf">Graph-based Parsing w/ Neural Nets</a> (Pei et al. 2015)</li>
+
+    <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P15/P15-1033.pdf">Stack LSTM Dependency Parsing</a> (Dyer et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/Q16-1032">Easy-first Neural Parsing</a> (Kiperwasser and Goldberg 2016)</li>
+
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/Q/Q16/Q16-1023.pdf">BiLSTM Features for Graph-based Parsing</a> (Kiperwasser and Goldberg 2016)</li>
+  <li><i>Reference:</i> <a href="https://web.stanford.edu/~tdozat/files/TDozat-ICLR2017-Paper.pdf">Deep Bi-affine Attention</a> (Dozat and Manning 2017)</li>
+
+    
+<!--
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D12/D12-1030.pdf">Higher-order Dependency Parsing</a> (Zhang and McDonald 2012)</li>
+
+    <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D07/D07-1015.pdf">Probabilistic Parsing w/ Matrix Tree Theorem</a> (Koo et al. 2007)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1701.00874.pdf">Neural Probabilistic Parser</a> (Ma and Hovy 2017)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P15/P15-1030.pdf">Neural CRF Parsing</a> (Durrett and Klein 2015)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P17/P17-1076.pdf">Span-based Constituency Parsing</a> (Stern et al. 2017)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D14/D14-1081.pdf">Inside-outside Recurrent Networks</a> (Le and Zuidema 2014)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D16/D16-1257.pdf">Parsing as Language Modeling</a> (Choe and Charniak 2016)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P17/P17-2025.pdf">Disentangling Reranking Effects</a> (Fried et al. 2017)</li>
+  <li><i>Reference:</i> <a href="https://arxiv.org/pdf/1805.01052.pdf">Constituency Parsing with a Self-Attentive Encoder</a> (Kitaev and Klein 2018)</li>
+
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/D/D11/D11-1014.pdf">Recursive RNNs</a> (Socher et al. 2011)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P15/P15-1150.pdf">Tree-structured LSTM</a> (Tai et al. 2015)</li>
+
+    <li><i>Reference:</i> <a href="http://www.aclweb.org/anthology/P18-1130">Top-down Neural Parsing</a> (Ma et al. 2018)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P/P15/P15-1113.pdf">Shift-reduce Phrase Structure Parsing</a> (Watanabe et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/N/N16/N16-1024.pdf">Recurrent Neural Network Gramamrs</a> (Dyer et al. 2016)</li>
+  <li><i>Reference:</i> <a href="http://papers.nips.cc/paper/5635-grammar-as-a-foreign-language.pdf">Linearized Trees</a> (Vinyals et al. 2015)</li>
+  <li><i>Reference:</i> <a href="http://aclweb.org/anthology/P18-1132">When is Structure Useful</a> (Kuncoro et al. 2018)</li>
+
+  -->
+</ul>
+
+<p>
+<b>Slides:</b> <a href="{{ site.baseurl }}/assets/slides/anlp-19-syntax2semantics1.pdf">Syntax 2 and Semantics 1 Slides</a> <br/>
+</p>
+

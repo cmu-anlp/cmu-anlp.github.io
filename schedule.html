@@ -1,0 +1,24 @@
+---
+title: Linear
+layout: default
+---
+<!-- Main -->
+<div id="main">
+	<div id="content" class="container">
+		<section>
+			<header>
+				<h2>Class Schedule</h2>
+			</header>
+
+      {% for post in site.posts reversed %}
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+          <h3 class="post-header">
+            <a class="post-link" href="{{ post.url | relative_url }}.html">{{ post.title | escape }}</a>
+          </h3>
+      {% endfor %}
+
+    </section>
+  </div>
+</div>
