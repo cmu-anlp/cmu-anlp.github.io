@@ -6,7 +6,7 @@
 
 skel.init({
   // prefix: '/class/anlp2023/assets/css/style',
-	prefix: 'assets/css/style',
+	prefix: '/assets/css/style',
 	resetCSS: true,
 	boxModel: 'border',
 	grid: {
